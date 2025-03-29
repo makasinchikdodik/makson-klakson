@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: 'Webdings', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+h1 {
+    font-size: 2em;
+    max-width: 90%;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+}
