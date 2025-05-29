@@ -1,12 +1,11 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     color: white;
-    font-family: 'webdings', sans-serif;
     text-align: center;
     overflow: hidden;
 }
@@ -23,12 +22,4 @@ h1 {
     h1 {
         font-size: 1.2em;
     }
-}
-@font-face {
-    font-family: 'webdings';
-    src: url('fonts/webdings.woff2') format('woff2'),
-         url('fonts/webdings.woff') format('woff'),
-         url('fonts/webdings.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
