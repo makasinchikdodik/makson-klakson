@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: white;
+    color: black;
     text-align: center;
     overflow: hidden;
 }
@@ -14,4 +14,9 @@ ul {
     padding-left: 0;
     font-size: 2em;
     max-width: 90%
+}
+@media (max-width: 480px) {
+  ul {
+    font-size: 1.6em;
+  }
 }
